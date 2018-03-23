@@ -26,7 +26,7 @@ for x in range(1, int(width/32)+1):
             column += 32
 # draw text, full opacity
 out = Image.alpha_composite(im, txt)
-out.show()
+out.save('counted_image.png')
 
 
 
